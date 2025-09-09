@@ -44,6 +44,7 @@
 
 ### 🧱 Structural Patterns (الگوهای ساختاری)
 - [Decorator Pattern](https://github.com/aieghbal/LaravelDecoratorPattern)  
+- [Proxy Pattern](https://github.com/aieghbal/LaravelProxyPattern) 
 
 ---
 
