@@ -88,4 +88,5 @@ We plan to add the following patterns in the future:
 ✍️ **Author:** [Amir Eghbal](https://github.com/aieghbal)  
 
 </div>
+
 📄 [Persian Version](./README.fa.md) 
