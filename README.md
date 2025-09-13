@@ -1,39 +1,46 @@
 <div dir="rtl">
 
-# 🎨 آموزش جامع دیزاین پترن‌ها در لاراول
+# 🎨 Comprehensive Guide to Design Patterns in Laravel
 
-این ریپو به‌عنوان یک **مرجع آموزشی** برای یادگیری و درک مفاهیم **Design Pattern (الگوهای طراحی)** در برنامه‌نویسی، مخصوصاً در **Laravel** ساخته شده است.  
-در این پروژه برای هر الگو یک ریپوی جداگانه همراه با مثال عملی پیاده‌سازی شده است تا بتوانید مفهوم را هم تئوری و هم در عمل یاد بگیرید.  
-
----
-
-## 📌 دیزاین پترن چیست؟
-**Design Pattern**‌ها راه‌حل‌های **آزمایش‌شده** و **قابل استفاده مجدد** برای مشکلات رایجی هستند که در طراحی نرم‌افزار با آن‌ها مواجه می‌شویم.  
-
-- آن‌ها **کد آماده** نیستند.  
-- بلکه نوعی **راهنما** و **بهترین روش** برای حل مسائل طراحی نرم‌افزار هستند.  
-- استفاده از آن‌ها باعث می‌شود کد شما:  
-  - قابل‌فهم‌تر 🧩  
-  - قابل نگهداری‌تر 🛠️  
-  - توسعه‌پذیرتر 🚀  
-  - و استانداردتر 📏 شود.  
+This repository serves as an educational reference for learning and understanding Design Patterns in programming, specifically in Laravel.
+Each pattern in this project is implemented in a separate repository with a practical example so you can learn the concept both theoretically and in practice.
 
 ---
 
-## 🏗️ دسته‌بندی اصلی دیزاین پترن‌ها
-دیزاین پترن‌ها معمولاً در سه گروه اصلی دسته‌بندی می‌شوند:
+## 📌 What Is a Design Pattern?
 
-| دسته‌بندی | توضیح | مثال |
+Design Patterns are proven and reusable solutions to common problems we encounter in software design.
+
+They are not ready-to-use code.
+
+Rather, they are guidelines and best practices for solving software design problems.
+
+Using them makes your code:
+
+Easier to understand 🧩
+
+Easier to maintain 🛠️
+
+More extensible 🚀
+
+More standardized 📏 
+
+---
+
+## 🏗️ Main Categories of Design Patterns
+
+Design patterns are usually divided into three main groups:
+
+| Category | Description | Examples |
 |-----------|--------|-------|
-| **Creational (الگوهای سازنده)** | مربوط به نحوه ساخت و نمونه‌سازی اشیا | Factory, Builder, Singleton |
-| **Structural (الگوهای ساختاری)** | مربوط به ترکیب کلاس‌ها و اشیا برای ایجاد ساختارهای بزرگ‌تر | Adapter, Decorator, Proxy |
-| **Behavioral (الگوهای رفتاری)** | مربوط به تعامل و ارتباط بین اشیا | Strategy, Observer, Chain of Responsibility |
+| **Creational** | Related to the creation and instantiation of objects | Factory, Builder, Singleton |
+| **Structural** | Related to composing classes and objects into larger structures | Adapter, Decorator, Proxy |
+| **Behavioral** | Related to interactions and communication between objects | Strategy, Observer, Chain of Responsibility |
 
 ---
 
-## 📚 لیست الگوهای پیاده‌سازی‌شده در لاراول
-
-### 🏗️ Creational Patterns (الگوهای سازنده)
+## 📚 List of Implemented Patterns in Laravel
+🏗️ Creational Patterns
 - [Factory Method Pattern](https://github.com/aieghbal/LaravelFactoryMethodPattern)  
 - [Abstract Factory Pattern](https://github.com/aieghbal/LaravelAbstractFactoryPattern)  
 - [Builder Pattern](https://github.com/aieghbal/LaravelBuilderPattern)  
@@ -42,27 +49,32 @@
 
 ---
 
-### 🧱 Structural Patterns (الگوهای ساختاری)
+### 🧱 Structural Patterns 
 - [Decorator Pattern](https://github.com/aieghbal/LaravelDecoratorPattern)  
 - [Proxy Pattern](https://github.com/aieghbal/LaravelProxyPattern) 
 
 ---
 
-### ⚙️ Extra Patterns (پرکاربرد در لاراول)
+### ⚙️ Extra Patterns 
 - [Repository Pattern](https://github.com/aieghbal/LaravelRepositoryPattern)  
 
 ---
 
-## 🎯 هدف این ریپو
-- درک بهتر مفاهیم **Design Pattern**‌ها  
-- مشاهده پیاده‌سازی عملی در **Laravel**  
-- کمک به برنامه‌نویسان برای نوشتن کدهای حرفه‌ای‌تر و تمیزتر  
-- استفاده به‌عنوان یک **منبع آموزشی متمرکز** در گیت‌هاب  
+## 🎯 Purpose of This Repository
+
+Gain a better understanding of Design Pattern concepts
+
+See practical implementations in Laravel
+
+Help developers write more professional and cleaner code
+
+Serve as a central educational resource on GitHub
 
 ---
 
-## 🚀 نقشه راه آینده
-در آینده قصد داریم الگوهای زیر را هم به مجموعه اضافه کنیم:  
+## 🚀 Future Roadmap
+
+We plan to add the following patterns in the future:
 
 - Strategy Pattern 🎯  
 - Observer Pattern 👀  
@@ -73,6 +85,7 @@
 
 ---
 
-✍️ **نویسنده:** [Amir Eghbal](https://github.com/aieghbal)  
+✍️ **Author:** [Amir Eghbal](https://github.com/aieghbal)  
 
 </div>
+📄 [Persian Version](./README.fa.md) 
